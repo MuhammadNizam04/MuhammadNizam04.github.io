@@ -1,0 +1,311 @@
+ body
+{
+    background-color: gainsboro;
+}
+ 
+header
+{
+    background-color: crimson;
+    color: white;
+    padding: 20px;
+}
+ 
+header h2
+{
+    margin-bottom: 7px;
+    font-size: 35px;
+}
+ 
+.navigasi ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:darkorange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+ 
+.navigasi li 
+{
+    float: left;
+}
+ 
+.navigasi li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+ 
+.navigasi li a:hover 
+{
+    background-color:red;
+    transition-duration: 2s;
+}
+ 
+.banner
+{
+    margin-bottom: 15px;
+}
+ 
+.banner img
+{
+    display: block;
+    width: 100%;
+    height: 330px;
+}
+ 
+.kotak
+{
+    border: 1px solid gainsboro;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+ 
+.kotak h3
+{
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 13px;
+}
+ 
+.kotak img
+{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+ 
+.kotak p
+{
+    margin-bottom: 10px;
+}
+ 
+.menu-kiri
+{
+    width: 250px;
+    margin-right: 10px;
+    float: left;
+}
+ 
+.menu-tengah
+{
+    width: 800px;
+    height: 500px;
+    margin-right: 10px;
+    float: left;
+    margin-bottom: 15px;
+}
+ 
+.menu-tengah h3
+{
+    background: none;
+    color: crimson;
+    margin-bottom: 0;
+}
+ 
+.tanggal-posting
+{
+    color: gray;
+    text-align: right;
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: block;
+}
+ 
+.tombol
+{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    width: 150px;
+    color: white;
+    border-radius: 5px;
+    text-align: right;
+    background-color: darkorange;
+    
+    
+    
+}
+ 
+.tombol:hover
+{
+    background-color: black;
+    transition-duration: 2s;
+}
+ 
+.tombol-pesan
+{
+    background-color: green;
+}
+ 
+.tombol-lengkap
+{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    width: 120px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    background-color: darkorange;
+}
+ 
+.menu-kanan
+{
+    width: 250px;
+    float: left;
+}
+ 
+.menu-kanan, .menu-kiri, .menu-tengah
+{
+    margin-bottom: 15px;
+}
+ 
+.footer {
+    background-color: crimson;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    clear: both;
+    padding: 15px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-info, .footer-social {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-info h3, .footer-social h3 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer-info p, .footer-info a {
+    color: #ccc;
+    font-size: 16px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.footer-info a:hover {
+    text-decoration: underline;
+}
+
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-social ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer-social ul li a img {
+    width: 30px;
+    height: auto;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #555;
+    font-size: 14px;
+}
+
+.olahan ul
+{
+    list-style-type: none;
+}
+ 
+.olahan
+{
+    text-decoration: none;
+    display: block;
+    padding: 13px;
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 12px;
+    color: black;
+}
+ 
+.olahan ul li a:hover
+{
+    color: darkorange;
+    border-bottom: 5px double chocolate;
+    transition-duration: 2s;
+}
+
+.menu-kanan2 {
+    width: 250px;
+    float: left;
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+input[type="text"] {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+input[type="number"] {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+input[type="password"] {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+input:hover {
+    border: 1px solid #666;
+}
+
+input:focus {
+    border: 1px solid #ff6200;
+    box-shadow: 0 0 5px #ff6200;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff6200;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff6200;
+}
+
+
